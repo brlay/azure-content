@@ -50,7 +50,7 @@ If you want a direct layer 3 connection through an exchange provider, you can do
 - You can work with Ethernet providers such as Level 3 to have Ethernet circuits setup between your data centers and Microsoft. 
 - You can work with your local connectivity provider to acquire redundant connectivity to the closest exchange provider facility and connect to the cloud exchange.
 
-We do require you to have redundant connectivity me meet the requirements for our SLA. We do not support direct connectivity to the Microsoft edge. Dedicated circuits will always be enabled through an Ethernet provider or the local cloud exchange. While this sets up layer 2 connectivity between Microsoft and your network, we will not support extending the layer 2 domain. You must setup redundant routing sessions between your edge routers and the Microsoft edge routers to have layer 3 connectivity.
+We do require you to have redundant connectivity to meet the requirements for our SLA. We do not support direct connectivity to the Microsoft edge. Dedicated circuits will always be enabled through an Ethernet provider or the local cloud exchange. While this sets up layer 2 connectivity between Microsoft and your network, we will not support extending the layer 2 domain. You must setup redundant routing sessions between your edge routers and the Microsoft edge routers to have layer 3 connectivity.
 
 For more information about configuration and to see real-world examples, you can follow this step by step guidance: [Configure an ExpressRoute Connection through an EXP](expressroute-configuring-exps.md).
 
